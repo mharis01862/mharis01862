@@ -176,6 +176,17 @@ body {
     font-size: 0.9rem;
 }
 
+/* Make advisor link same color as text, with underline only */
+.advisor-link {
+    color: inherit;       /* Use same text color as surrounding text */
+    text-decoration: underline;  /* Only underline, no blue color */
+}
+
+/* Optional: remove underline on hover if desired */
+.advisor-link:hover {
+    text-decoration: underline;  /* Keeps underline on hover */
+}
+
 .institution {
     font-weight: 600;
     color: var(--text-dim);
@@ -356,4 +367,5 @@ body {
     .section {
         padding: 60px 0;
     }
+
 }
