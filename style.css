@@ -562,10 +562,10 @@ body {
         grid-template-columns: 1fr;
     }
     
-   .hero,
-  .hero-content,
-  .container {
-    padding-top: 1.5rem;
+   .hero-title,
+  .headline,
+  h1 {
+    margin-top: 1.2rem; /* adjust as needed */
   }
     
     .section {
@@ -573,6 +573,7 @@ body {
     }
 
 }
+
 
 
 
